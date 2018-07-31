@@ -1,0 +1,9 @@
+# Servicemaster
+Android 使用Service和BroadcastReceiver实现音乐播放功能
+
+# Service
+
+demo中service使用得是新的进程,activity和service日志需要切换进程才能看到,这里是最典型得activity和service交互的过程,
+activity传递信息很简单,通过startService并传递intent即可,但是service却只能通过广播的形式来向activity传递数据
+
+
